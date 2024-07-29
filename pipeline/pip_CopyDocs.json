@@ -110,7 +110,13 @@
 							"outputs": [
 								{
 									"referenceName": "Pegar_Input_CapaBronce",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"Nombre_Archivo": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
