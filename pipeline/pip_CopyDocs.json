@@ -1,0 +1,7 @@
+{
+	"name": "pip_CopyDocs",
+	"properties": {
+		"description": "Copiar archivos de la carpeta input y pegar en la carpeta capa bronce",
+		"annotations": []
+	}
+}
