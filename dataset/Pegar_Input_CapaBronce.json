@@ -1,0 +1,32 @@
+{
+	"name": "Pegar_Input_CapaBronce",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CONEXION_ADLS_CON_DATAFACTORY",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Nombre_Archivo": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().Nombre_Archivo",
+					"type": "Expression"
+				},
+				"folderPath": "capa bronce",
+				"fileSystem": "proyectofinal-garciavela"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
