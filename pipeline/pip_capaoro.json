@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Notebook1",
+				"name": "Capa Oro",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/sebastian.garcia@ucsm.edu.pe"
+					"notebookPath": "/Users/sebastian.garcia@ucsm.edu.pe/Transformación Capa Plata"
 				},
 				"linkedServiceName": {
 					"referenceName": "ProyectoFinal_ADB_GarciaVela",
